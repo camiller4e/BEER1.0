@@ -1,0 +1,95 @@
+main{
+  margin: 0 auto;
+  font-family: courier;
+  display: flex;
+  flex-direction: column;
+
+}
+
+body {
+
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+h1 {
+
+font-family: courier;
+font-size: 60px;
+text-align: center;
+
+}
+
+ul {
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+
+}
+
+li {
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+button {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+img {
+
+  width:125px;
+  height: 405px;
+
+}
+
+#timg {
+
+  width: 500px;
+  height: 500px;
+
+}
+
+#fix-beer {
+
+  background-color: yellow;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: courier;
+  font-size: 16px;
+  font-style: bold;
+
+
+}
+
+#fix-beer:hover {
+
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#goodbadbeer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
+
+
+}
