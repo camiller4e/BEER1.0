@@ -33,7 +33,8 @@ const gimmeTheT = function(){
   bigJuicyText.innerText = "THE ONE TRUE BEER";
   bigJuicyImg.src = 'https://tennentcaledonian.com/wp-content/uploads/2018/04/tennentspint.png'
   bigJuicyImg.id = "Timg"
-  bigJuicyImg.style = "width: 250px height: 400px"
+  bigJuicyImg.width = `250px`
+  bigJuicyImg.height = `400px`
   divT.appendChild(bigJuicyText);
   divT.appendChild(bigJuicyImg);
 }
